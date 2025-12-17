@@ -43,7 +43,7 @@ dotenv
 CORS
 
 📁 Project Structure
-text
+
 login-signup-app/
 ├── backend/
 │   ├── models/
@@ -64,28 +64,40 @@ login-signup-app/
 └── README.md
 
 ⚙️ Setup Instructions
+
 1️⃣ Clone the Repository
+
 git clone https://github.com/yourusername/login-signup-app.git
 cd login-signup-app
+
 2️⃣ Install Backend Dependencies
+
 cd backend
 npm install
 3️⃣ Configure Environment Variables
+
 Create a .env file inside the backend/ directory and add the following:
 MONGO_URI=mongodb://127.0.0.1:27017/loginApp
 PORT=5001
+
 4️⃣ Start the Server
-bash
+
 npm run dev
 Server will run at:
 http://localhost:5001
+
 🔗 API Endpoints
+
 Method	Endpoint	Description
+
 POST	/api/auth/register	Register a new user
+
 POST	/api/auth/login	Login an existing user
+
 GET	/api/auth/all	Retrieve all users (for testing)
 
 🧩 Future Improvements:
+
   🔐 JWT-based authentication
 
   🧱 Protected routes
@@ -97,7 +109,9 @@ GET	/api/auth/all	Retrieve all users (for testing)
   ⚛️ Frontend integration with React
 
 👤 Author
+
 Developed by: Divyansh
+
 💻 Passionate about full-stack web development and secure applications.
 
 🗃️ GitHub Upload Commands
