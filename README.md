@@ -47,7 +47,7 @@ dotenv
 CORS
 
 📁 Project Structure
-
+```
 login-signup-app/
 
 ├── backend/
@@ -79,9 +79,10 @@ login-signup-app/
 ├── .gitignore
 
 └── README.md
+```
 
 ⚙️ Setup Instructions
-
+```
 1️⃣ Clone the Repository
 
 git clone https://github.com/yourusername/login-signup-app.git
@@ -103,6 +104,7 @@ PORT=5001
 npm run dev
 Server will run at:
 http://localhost:5001
+```
 
 🔗 API Endpoints
 
